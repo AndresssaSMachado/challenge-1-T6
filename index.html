@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main class="main-content">
+        <section class="main-content__logo">
+            <img id="diamond" src="assets/img/diamante.png" alt="diamond">
+        </section>
+        <section class="main-content__principal">
+            <div class="main-content__principal__textarea-container">
+                <textarea placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="main-content__principal__warn-container">
+                <p>!</p>
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="main-content__principal__buttons-container">
+                <button onclick="encryptor()" class="main-content__principal__buttons-container__encrypt">Criptografar</button>
+                <button onclick="decryptor()" class="main-content__principal__buttons-container__dencrypt">Descriptografar</button>
+            </div>
+        </section>
+        <section class="main-content__result">
+            <!-- <textarea class="content__result__textarea" placeholder="Digite seu texto"></textarea> -->
+            <img id="girl-image" src="assets/img/png-transparent-girl-thinking-thought-bubble-child-kid-think-speech-dialogue-speech-balloon-speech-bubble-thumbnail.png" alt="girl character looking at a diamond with a magnifying glass">
+            <div class="main-content__result__text">
+                <h2>Nenhuma mensagem encontrada</h2>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <!-- <button onclick="" class="main-content__result-button">Copiar</button> -->
+        </section>
+    </main>
+    <script src="app.js" defer></script>
+</body>
+</html>
